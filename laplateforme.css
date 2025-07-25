@@ -1,0 +1,20 @@
+.links  {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    flex-direction: row;
+    color:black;
+    padding: 10px 10px;
+    background: rgb(165, 196, 236);
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+.headliner {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
