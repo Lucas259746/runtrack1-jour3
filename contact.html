@@ -23,18 +23,30 @@
       <div class="headliner" >
       <h1>Pour nous Contacter</h1>   
       </div>
-
-
-
-
-
       <main>
+         <div class="text">
+            <h2>Nous contacter</h2>
+            <p>Pour toute question, suggestion ou demande d'information, n'hésitez pas à nous contacter via le formulaire ci-dessous.</p>
+            <form action="submit_form.php" method="post">
+               <label for="name">Nom:</label><br>
+               <input type="text" id="name" name="name" required><br>
+               <label for="email">Email:</label><br>
+               <input type="email" id="email" name="email" required><br>
+               <label for="message">Message:</label><br>
+               <textarea id="message" name="message" rows="4" required></textarea><br>
+               <input type="submit" value="Envoyer">
+            </form>
+         </div>
+
+
+
+
 
 
       </main>
 
       <div class="links">
-      <P><A href="accueil.html">Retour a l'accueil</A></P>
+      <P><A href="index.html">Retour a l'accueil</A></P>
       </div>
    </body>
 
